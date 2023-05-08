@@ -1,2 +1,6 @@
 # websites_extraction
-Files are part of the Project "Extracting info regarding enviromental action from Greek businesses in Energy field"
+Files are part of the Thesis:
+"Automating the data acquisition of Businesses and their actions regarding environmental sustainability: The Energy Industry in Greece"
+
+
+
