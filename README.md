@@ -1,6 +1,8 @@
 # websites_extraction
 In this repository there are files are part of the Thesis: <br>
-[### "Automating the data acquisition of Businesses and their actions regarding environmental sustainability: The Energy Industry in Greece"](Thesis_DI_Format (1).pdf)
+[Automating the data acquisition of Businesses and their actions regarding environmental sustainability: The Energy Industry in Greece](Thesis_DI_Format%20(1).pdf)
+
+
 
 Parts of the data engineering process that is described in the thesis file, written in Python, that all together consist the pipeline of the procedure shown in the image below:
 ![Pipeline](pipeline.jpg)
