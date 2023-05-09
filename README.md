@@ -23,6 +23,9 @@ The steps are the following:
    In order to run the script, user needs to give as input: 
     1. The input path that contains folders per website under which there are stored all HTML files (Input parameter parameter: _--inpath_) <br> (e.g. --inpath C:\Users\userXXX\Downloads\thesis\inp) <br> 
     2. The output path that user desires to store the results (ESG/Sustainability pdf files) per website  (Input parameter parameter: _--out_dir_) <br> (e.g. --out_dir C:\Users\userXXX\Downloads\thesis\out) <br> 
+   
+   Thus the command at terminal will be similar to: "C:\Users\userXXX\PycharmProjects\pythonProject1_thesis\venv_tst\Scripts\python.exe C:\Users\c.borovilou\PycharmProjects\pythonProject1_thesis\venv_tst\Scripts\Crawler_pdfs_from_html_files.py --inpath C:\Users\userXXX\Downloads\thesis\inp --out_dir C:\Users\userXXX\Downloads\thesis\out 
+"
 
 Optional feature:
 After first run a (default) dictionary for words of interest ([ESG Dictionary](websites_extraction/esg_dict.csv)) is generated at input forlder so that user can maintain it. 
