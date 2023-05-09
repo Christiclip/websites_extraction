@@ -8,7 +8,7 @@ Parts of the data engineering process that is described in the thesis file, writ
 ![Pipeline](pipeline.jpg)
 
 
-
+## Pipeline
 The steps are the following:
 1. Use a crawler algorithm to exract a **list** of all the Greek businesses that belong to the energy factor with their domains (source www.dnb.com)
 2. Use a crawler algorithm that will look over all the HTML of each and every domain in our **list** as well as all the URLs appearing on these web pages and its subdomains & will extract their content (HTML files). Moreover it will extract pdf files refering to ESG factors using a _customizing_ dictionary of words as an content-filter method [ESG Dictionary](websites_extraction/esg_dict.csv)
