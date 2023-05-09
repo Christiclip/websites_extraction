@@ -11,7 +11,7 @@ Parts of the data engineering process that is described in the thesis file, writ
 ## Pipeline
 The steps are the following:
 1. Use a crawler algorithm to exract a **list** with domains of all the Greek businesses that belong to the energy factor  (source www.dnb.com)
-2. Use a crawler algorithm that will navigate to the URLs in our **list** as well as all their subdomains that are called on these web pages & will extract their content (HTML files). Moreover it will extract document files (.pdf) refering to ESG factors using a _customizing_ dictionary of words as an content-filter method [ESG Dictionary](esg_dict.csv)
+2. Use a crawler algorithm that will navigate to the URLs in our **list** as well as all the subdomains that are called on these web pages & will extract their content (HTML files). Moreover it will extract document files (.pdf) refering to ESG factors using a _customizing_ dictionary of words as an content-filter method [ESG Dictionary](esg_dict.csv)
  (script related &rightarrow; crawler_pdfs.py)
 3. Use a boiler plate removal algorithm that removes HTML syntax and keep only the text (not publicly available in the repository)
 4. Evaluate web-scrapping process defining & calculating specific metrics. Exports the results in a csv (script related &rightarrow; meta_cleaning_2.py)
