@@ -14,7 +14,7 @@ The steps are the following:
 2. Use a crawler algorithm that will navigate to the URLs in our **list** as well as all the subdomains that are called on these web pages & will extract their content (HTML files). Moreover it will extract document files (.pdf) refering to ESG factors using a _customizing_ dictionary of words as an content-filter method [ESG Dictionary](esg_dict.csv)
  (script related &rightarrow; [crawler_pdfs.py](venv/Scripts/Crawler_pdfs.py))
 3. Use a boiler plate removal algorithm that removes HTML syntax and keep only the text (not publicly available in the repository)
-4. Evaluate web-scrapping process defining & calculating specific metrics. Filter accordingly also the content (text) that was extracted in order to distill the action of greek businesses regarding environmental responsability. Export the results in a csv (script related &rightarrow; [meta_cleaning_2.py] (venv/Scripts/meta_cleaning_2.py) )
+4. Evaluate web-scrapping process defining & calculating specific metrics. Filter accordingly also the content (text) that was extracted in order to distill the action of greek businesses regarding environmental responsability. Export the results in a csv (script related &rightarrow; [meta_cleaning_2.py](venv/Scripts/meta_cleaning_2.py) )
 
 * There is also available a script of the crawler designed to read local HTML files (instead of URLs as decribed in step 2), in order to extract ESG pdf files. (script related &rightarrow; [Crawler_pdfs_from_html_files.py](venv_tst/Scripts/Crawler_pdfs_from_html_files.py))
 
