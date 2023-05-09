@@ -15,7 +15,7 @@ The steps are the following:
 3. A boiler plate removal algorithm that removes HTML syntax and keep only the text (not publicly available in the repository)
 4. Evaluate web-scrapping process defining & calculating specific metrics. Exports the results in a csv (script related &rightarrow; meta_cleaning_2.py)
 
-0. There is also available a script of the crawler designed to read local HTML files (instead of URLs as decribed in step 2), in order to extract ESG pdf files.
+* There is also available a script of the crawler designed to read local HTML files (instead of URLs as decribed in step 2), in order to extract ESG pdf files.
 
 ## How to run
 
